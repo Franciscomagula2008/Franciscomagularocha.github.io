@@ -1,0 +1,70 @@
+/* Tipografía general */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e7e7e7;   /* Fondo claro */
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Barra de navegación */
+nav {
+  background-color: #002f6c; /* Azul de San Lorenzo */
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #e30016;  /* Rojo de San Lorenzo */
+}
+
+/* Encabezados */
+h1, h2, h3 {
+  color: #002f6c;
+  text-align: center;
+}
+
+/* Párrafos */
+p {
+  padding: 10px 20px;
+  line-height: 1.6;
+}
+
+/* Imágenes adaptativas */
+img {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+/* Botones y links destacados */
+.boton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e30016;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.boton:hover {
+  background-color: #002f6c;
+}
+
+/* Footer */
+footer {
+  background-color: #002f6c;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
